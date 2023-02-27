@@ -1,0 +1,51 @@
+*{
+    background-color: bisque;
+    background-image: url("back.jpg");
+   
+}
+h1{
+   text-justify: auto;
+   float: none;
+   padding-left: 110px;
+   padding: bottom 3px; 
+   width: fit-content;
+   font-size: 100px;
+
+}
+.cn a{
+    text-decoration: none;
+    color: rgb(9, 9, 187);
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    margin-right: 10px;
+    margin-left: 0.5px;
+    margin-top: 9px;
+    font-size: 30px;
+}
+.cn{
+    display: flex;
+    width: 100px;
+    height: 60px;
+    color: rgb(10, 239, 94);
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: red;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    padding-right: 100px;
+   
+}
+.cn:hover{
+    transition: 0.4s ease-in-out;
+    color: blue;
+    background: blue;
+}
+
+ul{
+    color: blue;
+    display: flex;
+    font-size: 50px;
+}
